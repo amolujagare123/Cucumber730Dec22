@@ -13,7 +13,7 @@ public class SubscriptionSD {
         System.out.println("I am on subscription page");
     }
 
-    @And("I click on subscribe button")
+  /*  @And("I click on subscribe button")
     public void iClickOnSubscribeButton() {
         System.out.println("I click on subscribe button");
     }
@@ -22,7 +22,7 @@ public class SubscriptionSD {
     public void userShouldBeSubscribe() {
         System.out.println("user should be subscribe");
     }
-
+*/
     @When("^I enter (.+) , (.+) and (.+)$")
     public void iEnterNamePhoneAndEmail(String name,String phone,String email) {
 
